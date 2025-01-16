@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthApi", "AuthApi\AuthApi.csproj", "{932A869E-EC66-435A-88D0-C0B1077C315B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherForecast", "WeatherForecast\WeatherForecast.csproj", "{8B42F29A-C740-47DA-8E2E-01D45F929851}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7396E4D1-BA52-494D-8B44-3A66D6282BD9}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{932A869E-EC66-435A-88D0-C0B1077C315B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{932A869E-EC66-435A-88D0-C0B1077C315B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{932A869E-EC66-435A-88D0-C0B1077C315B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{932A869E-EC66-435A-88D0-C0B1077C315B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B42F29A-C740-47DA-8E2E-01D45F929851}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B42F29A-C740-47DA-8E2E-01D45F929851}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B42F29A-C740-47DA-8E2E-01D45F929851}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B42F29A-C740-47DA-8E2E-01D45F929851}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9E036481-4F4F-46BB-98C2-DE4E74714ABE}
+	EndGlobalSection
+EndGlobal
