@@ -1,4 +1,10 @@
 
+using AuthApi.Datas;
+using AuthApi.Models;
+using AuthApi.Services;
+using AuthApi.Services.IAuthService;
+using Microsoft.AspNetCore.Identity;
+
 namespace AuthApi
 {
     public class Program
@@ -6,6 +12,13 @@ namespace AuthApi
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+
+            builder.Services.AddDbContext<AppDbContext>();
+            builder.Services.AddScoped<IAuth, Auth>();
+
+            builder.Services.AddIdentity<ApplicationUser, IdentityRole>().AddEntityFrameworkStores<AppDbContext>()
+            .AddDefaultTokenProviders();
+
 
             // Add services to the container.
 
