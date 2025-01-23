@@ -38,3 +38,4 @@ C:\Users\farka\GitWorkDirectory\AuthApi\WeatherForecast\bin\Debug\net8.0\Microso
 C:\Users\farka\GitWorkDirectory\AuthApi\WeatherForecast\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\farka\GitWorkDirectory\AuthApi\WeatherForecast\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\farka\GitWorkDirectory\AuthApi\WeatherForecast\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\farka\GitWorkDirectory\AuthApi\WeatherForecast\obj\Debug\net8.0\WeatherForecast.sourcelink.json

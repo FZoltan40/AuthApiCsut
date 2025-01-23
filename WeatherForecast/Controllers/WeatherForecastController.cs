@@ -19,7 +19,7 @@ namespace WeatherForecast.Controllers
             _logger = logger;
         }
 
-        [Authorize]
+        [Authorize(Roles = "Student, Admin")]
         [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {
